@@ -75,6 +75,29 @@ body {
     background: #007489;
 }
 
+.services1 {
+    background-color: #007489;
+}
+
+.services2 {
+    background-color:#ffabab;
+}
+
+.services3 {
+    background-color: #bca0dc;
+}
+
+.services4 {
+    background-color: #f69552;
+}
+
+/*-------------------------  HR Bar  ---------------------------*/
+
+hr {
+    border-top: 2px solid black;
+    width: 50%;
+}
+
 /*-------------------------  Nav Bar  ---------------------------*/
 
 .container-space { /* all pass *//* Conjoined with #nav li */
@@ -92,7 +115,7 @@ body {
 
 }
 
-#nav { /* all pass */
+#nav { 
     margin-bottom: 0;
 
 }
@@ -219,10 +242,6 @@ body {
 }
 
 
-hr {
-    border-top: 2px solid black;
-    width: 50%;
-}
 
 
 /*-------------------------  FOOTER  ---------------------------*/
@@ -360,5 +379,325 @@ hr {
 }
 
 /*-------------------------  Services  ---------------------------*/
+
+/*-------------------------  Gallery photos  ---------------------------*/
+
+.hero-ul-gallery{
+    background: url("../gallery/hero/lorem7.png")
+}
+
+.hero-ur-gallery{
+    background: url("../gallery/hero/lorem6.png")
+}
+
+.hero-ml-gallery{
+    background: url("../gallery/hero/lorem5.png")    
+}
+
+.hero-mr-gallery{
+    background: url("../gallery/hero/lorem4.png")   
+}
+
+.hero-ll-gallery{
+    background: url("../gallery/hero/lorem3.png")    
+}
+
+.hero-lr-gallery{
+    background: url("../gallery/hero/lorem2.png")   
+}
+
+
 /*-------------------------  Gallery  ---------------------------*/
+
+.hero-frame-gallery {
+    height: 80vh;
+    width: 100%;
+}
+
+.gallery-spacer {
+    padding: 35px 0;
+}
+
+.gallery-border {
+
+}
+
+.hero-gallery {
+    height: 30vh;
+    width: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 15px groove;
+}
+
+
+.background-color-gallery{
+    /*background-color: #bca0dc;        /* model after this!!  bca0dc*/       /* #d6b4e7 */       /* #3d4849 previous */
+    background-color:rgba(188, 160, 220, .5);  /* EXTRA IDEAS!!!*/
+}
+
+.y {
+    border: 10px double #000;
+    background-color: rebeccapurple;
+}
+
+/*-------------------------  gallery Scroll spy children  ---------------------------*/
+
+.gallery-image-text h4 {
+    font-family: "Playfair Display SC", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.nav-header nav {
+    width: 100%;
+    background-color: gray;
+}
+
+
+.navbar {
+    display: inline-block;
+}
+
+.nav-link-pad li {
+    padding: 13px 12px;
+
+}
+
+.sub-gallery-frame {
+    width: 20vw;
+    height: 80vh;
+    padding: 0px 13px;
+}
+
+
+
+
+/*-------------------------  Children sub gallery Full size pictures  ---------------------------*/
+
+
+.child-1-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-2-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-3-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-4-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-5-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-6-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-7-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-8-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-9-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-10-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------  Children sub gallery nav bar  ---------------------------*/
+
+.child-1 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-2 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-3 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-4 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-5 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-6 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-7 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-8 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-9 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-10 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 /*-------------------------  Contact  ---------------------------*/
+
+.form-background-color {
+    background-color: rgba(0, 116, 137,.25)
+}
+
+.form-text {
+    font-family: "Playfair Display SC", sans-serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.form-spacing {
+    padding: 43px 3px;
+}
+
+
+.input-spacing div,
+.input-spacing div div {
+    padding-top: 13px;
+}
+
+#radio-padding,
+#radio-padding div label,
+#radio-padding div input {
+    padding: 0;
+}
+
+.form-spacing label {
+    padding: 27px 0;
+}
+
+.form-name {
+    float: left;
+}
+
+.form-email {
+    float: right;
+    padding: 23px 17px;
+}
+
+.form-button {
+    float:left;
+}
+
+.form-header {
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+
+.form-color {
+    background-color: rgb(148, 168, 221);
+}
+
+.form-color div {
+    padding: 5px 23px;
+    margin: 5px 23px;
+}
